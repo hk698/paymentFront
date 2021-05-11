@@ -26,7 +26,7 @@ let app = new Vue({
         },
         newOrder(order) {
 
-            fetch('https://individialwork2.herokuapp.com/order', {
+            fetch('https://paymentstore.herokuapp.com/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
